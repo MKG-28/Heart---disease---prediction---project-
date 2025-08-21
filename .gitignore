@@ -1,0 +1,16 @@
+# Ignore Python cache and virtual environments
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.env
+.venv
+.ipynb_checkpoints/
+
+# Ignore data files (optional)
+data/*
+!data/README.md
+
+# Ignore images generated
+images/*
+!images/README.md
